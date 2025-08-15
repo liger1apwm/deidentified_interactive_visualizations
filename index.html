@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Way Visualizations</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #f7f9fa;
+            color: #222;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            padding: 32px 24px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 32px;
+            color: #0056b3;
+            letter-spacing: 1px;
+        }
+        h2 {
+            font-size: 1.3em;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            color: #007BFF;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 6px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 12px;
+        }
+        li {
+            background: #f0f4fa;
+            border-radius: 8px;
+            margin: 0;
+            padding: 12px 16px;
+            transition: box-shadow 0.2s;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+        li:hover {
+            box-shadow: 0 4px 12px rgba(0,123,255,0.08);
+            background: #eaf4ff;
+        }
+        a {
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: 500;
+            font-size: 1.05em;
+            display: block;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Three Way Visualizations</h1>
+        <h2>Sentiment Visualizations</h2>
+        <ul id="sentiments-list">
+            <li><a href="sentiments/deidentified_sentiments_proportions_hover_topics_B.html">Sentiments - B</a></li>
+            <li><a href="sentiments/deidentified_sentiments_proportions_hover_topics_C.html">Sentiments - C</a></li>
+            <li><a href="sentiments/deidentified_sentiments_proportions_hover_topics_F.html">Sentiments - F</a></li>
+            <li><a href="sentiments/deidentified_sentiments_proportions_hover_topics_G.html">Sentiments - G</a></li>
+            <li><a href="sentiments/deidentified_sentiments_proportions_hover_topics_J.html">Sentiments - J</a></li>
+            <li><a href="sentiments/deidentified_sentiments_proportions_hover_topics_K.html">Sentiments - K</a></li>
+            <li><a href="sentiments/deidentified_sentiments_proportions_hover_topics_M.html">Sentiments - M</a></li>
+            <li><a href="sentiments/deidentified_sentiments_proportions_hover_topics_N.html">Sentiments - N</a></li>
+        </ul>
+        <h2>Topic Visualizations</h2>
+        <ul id="topics-list">
+            <li><a href="topics/deidentified_topic_proportions_hover_sentiments_B.html">Topics - B</a></li>
+            <li><a href="topics/deidentified_topic_proportions_hover_sentiments_C.html">Topics - C</a></li>
+            <li><a href="topics/deidentified_topic_proportions_hover_sentiments_F.html">Topics - F</a></li>
+            <li><a href="topics/deidentified_topic_proportions_hover_sentiments_G.html">Topics - G</a></li>
+            <li><a href="topics/deidentified_topic_proportions_hover_sentiments_J.html">Topics - J</a></li>
+            <li><a href="topics/deidentified_topic_proportions_hover_sentiments_K.html">Topics - K</a></li>
+            <li><a href="topics/deidentified_topic_proportions_hover_sentiments_M.html">Topics - M</a></li>
+            <li><a href="topics/deidentified_topic_proportions_hover_sentiments_N.html">Topics - N</a></li>
+        </ul>
+        <p style="text-align:center; margin-top:40px;">
+            <span style="font-size:0.95em; color:#888;">Tip: Each visualization page now has a back button to return here.</span>
+        </p>
+    </div>
+</body>
+</html>
